@@ -10,7 +10,7 @@
   margin: 0 150px;
 }
 .banar {
-  background-image: url(/image/Hero-bg.png);
+  background-image: url(./public/image/Hero-bg.png);
   /* max-width: 1440px; */
   max-height: 652px;
   background-repeat: no-repeat;
@@ -224,7 +224,7 @@
   max-width: 1140px;
   max-height: 314px;
   margin: 0 auto;
-  background-image: url(/image/handshake.jpg);
+  background-image: url(./public/image/handshake.jpg);
   padding: 64px 48px;
   border-radius: 10px;
   margin-bottom: 80px;
