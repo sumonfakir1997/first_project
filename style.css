@@ -227,7 +227,7 @@
   background-image: url(/assets/handshake.jpg);
   padding: 64px 48px;
   border-radius: 10px;
-  margin-bottom:80px;
+  margin-bottom: 80px;
   background-position: center;
 }
 .support_section_title {
@@ -258,8 +258,27 @@ input {
   border: none;
   border-radius: 8px;
 }
-.input_section{
+.input_section {
   display: flex;
   justify-content: center;
+  gap: 16px;
+}
+
+body:focus-visible {
+  outline: none;
+}
+.footer {
+  border-radius: 16px;
+  padding: 16px 150px;
+  /* margin: 0 150px; */
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  margin: 0;
+}
+.social_media{
+  display: flex;
   gap: 16px;
 }
