@@ -144,7 +144,8 @@
   margin-bottom: 24px;
 }
 .my_current_des,
-.my_inspiration_desc {
+.my_inspiration_desc,
+.support_section_des {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -153,6 +154,7 @@
   margin-bottom: 48px;
   max-width: 852px;
   margin: 0 auto;
+  margin-bottom: 24px;
 }
 .my_inspiration_section {
   /* max-width: 852px; */
@@ -213,8 +215,51 @@
 .learn_more a:hover {
   color: black;
 }
-.my_current_section{
+.my_current_section {
   max-width: 1140px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+.support_section {
+  max-width: 1140px;
+  max-height: 314px;
+  margin: 0 auto;
+  background-image: url(/assets/handshake.jpg);
+  padding: 64px 48px;
+  border-radius: 10px;
+  margin-bottom:80px;
+  background-position: center;
+}
+.support_section_title {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.color_white {
+  color: white;
+}
+input {
+  padding: 15px;
+  width: 548px;
+  border-radius: 8px;
+  border: none;
+}
+.submit {
+  display: inline;
+  border: 1px solid;
+  padding: 16;
+  padding: 13px;
+  background: white;
+  border: none;
+  border-radius: 8px;
+}
+.input_section{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
