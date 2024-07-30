@@ -1,55 +1,64 @@
-* body {
+/* General reset */
+*,
+body {
   margin: 0;
   padding: 0;
 }
 
+/* Header styling */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 150px;
 }
+
+/* Banner section with background image */
 .banar {
   background-image: url(/public/image/Hero-bg.png);
-  /* max-width: 1440px; */
   max-height: 652px;
   background-repeat: no-repeat;
   padding: 26px 0 44px 0;
   margin-top: 50px;
   background-size: cover;
 }
+
+/* Image alignment */
 .img {
   display: flex;
   justify-content: center;
 }
+
+/* Title styling */
 .title {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
-  letter-spacing: 0%;
   text-align: center;
   padding-top: 32px;
   max-width: 998px;
   margin: 0 auto;
 }
+
+/* Description styling */
 .description {
   color: gray;
   font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: center;
 }
+
+/* Black button styling */
 .black_btn {
   color: rgb(255, 255, 255);
   font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
-  letter-spacing: 0%;
   text-align: center;
   background-color: black;
   display: inline;
@@ -57,6 +66,8 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* Button container styling */
 .btn {
   display: flex;
   justify-content: center;
@@ -65,12 +76,16 @@
 .btn a {
   text-decoration: none;
 }
+
+/* Button styling */
 .btn_1 {
   cursor: pointer;
   padding: 10px;
   border-radius: 8px;
   border: 1px solid;
 }
+
+/* Web development section styling */
 .web_dev_section {
   max-width: 1140px;
   margin: 78px auto;
@@ -78,6 +93,8 @@
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
 }
+
+/* Web development title styling */
 .web_dev_title {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -87,6 +104,8 @@
   text-align: center;
   margin-bottom: 24px;
 }
+
+/* Web development description styling */
 .web_dev_dis {
   color: gray;
   font-family: Azeret Mono;
@@ -96,49 +115,63 @@
   text-align: center;
   margin-bottom: 48px;
 }
+
+/* Card container styling */
 .card {
   display: flex;
   justify-content: space-between;
   padding: 48px;
 }
+
+/* Cards container styling */
 .cards {
   display: flex;
   flex-direction: row-reverse;
   padding: 48px;
 }
+
+/* Card title styling */
 .card_title {
   color: rgba(13, 19, 33, 0.7);
   font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 16px;
   max-width: 390px;
 }
+
+/* Card description styling */
 .card_descp {
   color: gray;
   font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 32px;
 }
+
+/* Border button styling */
 .border_btn {
   border: 1px solid gray;
   display: inline;
   padding: 10px;
   cursor: pointer;
 }
+
+/* Card info styling */
 .card_info {
   flex-basis: 60%;
 }
+
+/* Card image styling */
 .card_img {
   flex-basis: 30%;
 }
+
+/* Section titles styling */
 .my_current_title,
 .my_inspiration_title {
   font-weight: 400;
@@ -146,6 +179,8 @@
   text-align: center;
   margin-bottom: 24px;
 }
+
+/* Section descriptions styling */
 .my_current_des,
 .my_inspiration_desc,
 .support_section_des {
@@ -159,10 +194,13 @@
   margin: 0 auto;
   margin-bottom: 24px;
 }
+
+/* My inspiration section styling */
 .my_inspiration_section {
-  /* max-width: 852px; */
   margin: 0 auto;
 }
+
+/* Video section styling */
 .video_section {
   margin: 0 auto;
   padding: 15px;
@@ -171,58 +209,76 @@
   border-radius: 8px;
   margin-bottom: 140px;
 }
+
+/* YouTube thumbnail styling */
 .ytp-cued-thumbnail-overlay-image {
   border-radius: 20px !important;
 }
+
+/* Current card item styling */
 .current_card_item {
   padding: 40px;
   max-width: 364px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
 }
+
+/* Current card container styling */
 .my_current_card {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
+
+/* Blue background styling */
 .blue_bg {
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
 }
+
+/* Current card title styling */
 .current_card_title {
   font-weight: 800;
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 8px;
 }
+
+/* Current card description styling */
 .current_card_decs {
   color: gray;
   font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 24px;
 }
+
+/* Learn more link styling */
 .learn_more a {
   color: black;
   font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
-  letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
 }
+
+/* Learn more link hover styling */
 .learn_more a:hover {
   color: black;
 }
+
+/* Current section styling */
 .my_current_section {
   max-width: 1140px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+/* Support section styling */
 .support_section {
   max-width: 1140px;
   max-height: 314px;
@@ -233,55 +289,69 @@
   margin-bottom: 80px;
   background-position: center;
 }
+
+/* Support section title styling */
 .support_section_title {
   color: rgb(255, 255, 255);
   font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0%;
   text-align: center;
   margin-bottom: 16px;
 }
+
+/* White text color styling */
 .color_white {
   color: white;
 }
+
+/* Input styling */
 input {
   padding: 15px;
   width: 548px;
   border-radius: 8px;
   border: none;
 }
+
+/* Submit button styling */
 .submit {
   display: inline;
   border: 1px solid;
-  padding: 16;
-  padding: 13px;
+  padding: 16px;
   background: white;
   border: none;
   border-radius: 8px;
 }
+
+/* Input section styling */
 .input_section {
   display: flex;
   justify-content: center;
   gap: 16px;
 }
 
+/* Remove focus outline */
 body:focus-visible {
   outline: none;
 }
+
+/* Footer styling */
 .footer {
   border-radius: 16px;
   padding: 16px 150px;
-  /* margin: 0 150px; */
   background: rgba(13, 19, 33, 0.03);
   display: flex;
   justify-content: space-between;
 }
+
+/* Paragraph styling */
 p {
   margin: 0;
 }
-.social_media{
+
+/* Social media icons container styling */
+.social_media {
   display: flex;
   gap: 16px;
 }
